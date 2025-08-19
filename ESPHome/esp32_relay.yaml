@@ -1,0 +1,26 @@
+esphome:
+  name: esp32_relay
+  platform: ESP32
+  board: esp32dev
+
+wifi:
+  ssid: "YOUR_WIFI_NAME"
+  password: "YOUR_WIFI_PASSWORD"
+
+  ap:
+    ssid: "esp32_relay_fallback"
+    password: "12345678"
+
+captive_portal:
+
+logger:
+
+api:
+
+ota:
+
+switch:
+  - platform: gpio
+    name: "Smart Relay"
+    pin: GPIO5
+    id: relay_switch
