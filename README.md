@@ -21,14 +21,14 @@ Our goal is to provide a **low-cost, scalable, and open-source solution** for sm
 ---
 
 ## 🏗️ System Architecture  
-![Architecture Diagram](docs/architecture.png)  
+![Architecture Diagram](docs/achitecture.png)  
 
 ---
 
 ## 📲 Screenshots  
 
 ### 🔘 Dashboard Control  
-![Dashboard](docs/dashboard.png)  
+![Dashboard](docs/dashborad.png)  
 
 ### 📱 Mobile Notification Example  
 ![Mobile Notification](docs/mobile_notification.jpg)  
@@ -36,3 +36,4 @@ Our goal is to provide a **low-cost, scalable, and open-source solution** for sm
 ---
 
 ## 📂 Project Structure  
+
