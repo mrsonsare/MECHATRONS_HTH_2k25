@@ -1,0 +1,14 @@
+alias: "Iron Safety Notification"
+description: "Notify if the iron (relay) is ON for too long"
+trigger:
+  - platform: state
+    entity_id: switch.smart_relay
+    to: "on"
+    for: "00:30:00"   # 30 minutes
+condition: []
+action:
+  - service: notify.mobile_app_yourphone
+    data:
+      title: "⚠️ Iron Alert"
+      message: "The iron has been ON for 30 minutes. Please check!"
+mode: single
