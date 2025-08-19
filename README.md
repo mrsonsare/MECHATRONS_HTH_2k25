@@ -35,5 +35,34 @@ Our goal is to provide a **low-cost, scalable, and open-source solution** for sm
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure 
+├── ESPHome/ # ESP32 YAML configs
+│ └── esp32_relay.yaml
+├── HomeAssistant/ # Automations & scripts
+│ └── iron_notification.yaml
+├── docs/ # Documentation & screenshots
+│ ├── architecture.png
+│ ├── dashboard.png
+│ └── mobile_notification.png
+└── README.md
+
+---
+
+## 🚀 Getting Started  
+
+1. Flash ESP32 with **ESPHome firmware** (`esp32_relay.yaml`).  
+2. Add ESPHome device to **Home Assistant**.  
+3. Copy automation YAML (`iron_notification.yaml`) to Home Assistant `automations.yaml`.  
+4. Update your phone notification service under **Developer Tools → Services**.  
+5. Restart Home Assistant and test!  
+
+---
+
+## 🙌 Contribution  
+Pull requests are welcome! Please fork the repo and create a new branch for your features/fixes.  
+
+---
+
+## 📜 License  
+This project is open-source under the **MIT License**.  
 
